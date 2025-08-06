@@ -1,4 +1,4 @@
-public class PortaMain {
+public class  PortaMain {
     public static void main(String[] args) {
 
         Porta porta;
@@ -14,6 +14,9 @@ public class PortaMain {
         Porta pinus;
 
         pinus = new Porta("Madeira", "ferro", "Branco");
+
+        String dadosPorta =  pinus.toString();
+        System.out.println(dadosPorta);
 
     }
 }

@@ -23,4 +23,9 @@ public class Porta {
         this.cor = cor;
     }
 
+    @Override //sobrescrever o metodo ja existente
+    public String toString() {
+        return "Porta[material=" + material + "\nMacaneta=" + macaneta + "\nCor=" + cor;
+    }
+
 }
